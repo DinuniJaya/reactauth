@@ -36,7 +36,7 @@ class Login extends Component {
   }
   login(event) {
     // debugger;
-    fetch("http://jombooking.com/jompark/apiJompark/client_Login.php", {
+    fetch("url", {
       method: "post",
       headers: {
         Accept: "application/json",
