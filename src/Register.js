@@ -46,7 +46,7 @@ class Register extends Component {
   
   register(event) {  
   
-    fetch('http://jombooking.com/jompark/apiJompark/client_reg.php', {  
+    fetch('', {  
       method: 'post',  
       headers: {  
         'Accept': 'application/json',  
